@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../../../css/planiranjeNastavnik.css">
+    <link rel="stylesheet" type="text/css" href="../../../css/meni.css">
+    <title>Unos aktivnosti</title>
+</head>
+<body>
+<div class="meni">
+    <ul>
+        <li><a href="aktivnost.html">Aktivnosti</a></li>
+        <li><a href="planiranjeNastavnik.html">Unosite aktivnost</a></li>
+        <li><a href="podaciStudent.html"> Podaci </a></li>
+        <li><a href="raspored.html"> Raspored</a></li>
+        <li><a href="studenti.html"> Studenti</a></li>
+    </ul>
+</div>
+<form class="planiranje">
+    <div class="polje">
+        <label for="naziv">Naziv aktivnosti: </label>
+        <input type="text" name="naziv" id="naziv"><br>
+    </div>
+    <div class="polje">
+        <label for="predmet">Predmet: </label>
+        <input type="text" name="predmet" id="predmet"><br>
+    </div>
+    <div class="polje">
+        <label for="tip">Tip:</label>
+        <select name="tip" id="tip">
+        </select><br>
+    </div>
+    <div class="polje">
+        <label for="pocetak">Vrijeme početka: </label>
+        <input type="time" name="pocetak" id="pocetak"><br>
+    </div>
+    <div class="polje">
+        <label for="kraj">Vrijeme kraja: </label>
+        <input type="time" name="kraj" id="kraj"><br>
+    </div>
+    <div class="polje">
+        <label for="daniUSedmici">Dani u sedmici:</label>
+        <select name="dan" id="daniUSedmici">
+        </select><br>
+    </div>
+    <div class="polje">
+        <input type="submit">
+    </div>
+</form>
+</body>
+<script src="../js/pozivi.js"></script>
+</html>

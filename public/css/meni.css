@@ -1,0 +1,23 @@
+.meni {
+    background: #CFB7AE;
+    list-style: none;
+    margin: 20px;
+    padding: 5px;
+    width: auto;
+    border: 2px solid #0a0a0a;
+    border-radius: 14px;
+}
+
+p {
+    padding: 20px;
+}
+
+li, a {
+
+    display: inline;
+    color: #000000;
+    padding: 4px;
+}
+a{
+  text-decoration: none;
+}

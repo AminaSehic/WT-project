@@ -1,0 +1,31 @@
+form{
+    background: rgb(180, 199, 220);
+    display: block;
+    min-width: 480px;
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+label{
+    width: 20px;
+    font-size: 15px;
+}
+textarea{
+    margin: 3px;
+    font-size: 20px;
+}
+select{
+    margin: 3px;
+    font-size: 14px;
+    height: 30px;
+    width: 23%;
+}
+input{
+    width: 10%;
+    margin: 3%;
+}
+.studnet{
+    text-align-last: center;
+    margin: 5%;
+}

@@ -1,0 +1,26 @@
+table {
+    margin: 5%;
+    max-width: 480px;
+    width: 80%;
+}
+
+table, th, td {
+    border: 1px solid #2b2727;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+    text-align: center;
+    width: 50%;
+}
+
+tr:hover {
+    border: 2px solid;
+}
+.studnet{
+    background: rgb(180, 199, 220);
+    width: 60%;
+    height: 100%;
+    margin-inline: auto;
+}

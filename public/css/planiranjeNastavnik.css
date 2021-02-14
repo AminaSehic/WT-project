@@ -1,0 +1,47 @@
+.planiranje {
+    background: rgb(180, 199, 220);
+    display: block;
+    min-width: 480px;
+    width: 50%;
+    margin: 0 auto;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+label {
+    padding: 4px;
+    font-size: 18px;
+}
+
+input, select {
+    background: #ffffff57;
+    font-size: 15px;
+    width: 200px;
+    border: 1px solid black;
+    padding: 5px;
+    box-sizing: content-box;
+    border-radius: 6px;
+}
+
+label {
+    display: block;
+    float: left;
+    width: 150px;
+
+}
+
+.polje {
+    padding: 20px;
+    margin: 0 auto;
+    width: max-content;
+}
+
+@media only all and (max-width: 600px) {
+    input, label {
+        float: none;
+    }
+
+    input, select {
+        margin-bottom: 15px;
+    }
+}

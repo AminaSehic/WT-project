@@ -1,0 +1,112 @@
+.sve-zajedno {
+    margin: 20px;
+    padding-bottom: 100%;
+}
+
+.trenutni-dan {
+    font-weight: 800;
+}
+
+.dan-u-sedmici {
+    border: none;
+    text-align: right;
+    padding: 5px;
+}
+
+table {
+    margin: auto;
+    display: inline-table;
+}
+
+table, th, td {
+    border-collapse: collapse;
+}
+
+th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+    height: 50px;
+    width: 10px;
+}
+
+.tip-nastave {
+    font-size: 8px;
+    text-align: center;
+}
+
+.predmet {
+    font-size: 14px;
+    text-align: center;
+    padding-top: 3px;
+    height: 15px;
+
+}
+
+.zauzeto {
+    background: #dee6ef !important;
+    vertical-align: top;
+}
+
+.sat > td {
+    border-style: none;
+    font-size: 10pt;
+    height: 15px;
+}
+
+.sat > td > div {
+    margin-left: -50%;
+}
+
+.cas td:not(.dan-u-sedmici) {
+    background: #e6e6e6;
+}
+
+.puna-desno {
+    border-right-style: solid !important;
+}
+
+.puna-lijevo {
+    border-left-style: solid !important;
+}
+
+.isprekidana-desno {
+    border-right-style: dashed !important;
+}
+
+.isprekidana-lijevo {
+    border-left-style: dashed !important;
+}
+
+.prazna {
+    min-width: 16px !important;
+}
+
+@media only all and (max-width: 600px) {
+    .dan-u-sedmici {
+        max-width: 10px;
+        letter-spacing: 5px;
+        word-wrap: break-word
+    }
+}
+
+@media only all and (max-width: 600px) {
+    .prvi-red, .drugi-red, .treci-red, .cetvrti-red, .peti-red {
+        display: grid;
+    }
+
+    td {
+        width: auto;
+    }
+
+    .prazna {
+        display: none;
+    }
+
+    .dan-u-sedmici {
+        margin: 16px 5px;
+        height: auto;
+    }
+}
