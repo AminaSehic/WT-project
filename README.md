@@ -4,7 +4,7 @@ Website is simple activity timetable with basic capabilities.
 
 Variables, comments and commits are in bosnian by request of teaching assistant.
 
-backend has two versions coexisting (v1 and v2):
+Backend has two versions coexisting (v1 and v2):
  - v1 works with files (instead of database)
  - v2 works with database
 
